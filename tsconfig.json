@@ -1,5 +1,21 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      // "@api/*": ["pages/api/*"],
+      "@components/*": ["components/shared/*"],
+      "@layout/*": ["components/layout/*"],
+      "@constants/*": ["constants/*"],
+      "@contexts/*": ["contexts/*"],
+      // "@customTypes/*": ["customTypes/*"], // TODO move to TS
+      "@hocs/*": ["hocs/*"],
+      "@http/*": ["http/*"],
+      "@locales": ["locales"],
+      "@locales/*": ["locales/*"],
+      "@pages/*": ["pages/*"],
+      "@styles/*": ["styles/*"],
+      "@utils/*": ["utils/*"]
+    },
     "target": "es5",
     "lib": [
       "dom",
